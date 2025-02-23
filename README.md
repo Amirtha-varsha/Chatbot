@@ -1,4 +1,5 @@
 ## Chat Bot Tixie
+<<<<<<< HEAD
 # 🌙 Moonlight Movies - Movie Ticket Booking System 🎬
 Welcome to Moonlight Movies, an interactive movie ticket booking website that allows users to browse movies, check prices, book tickets, and retrieve seat numbers using an AI-powered chatbot.
 
@@ -32,3 +33,5 @@ Use the Order ID to check seat details via the chatbot.
 
 # 🎟️ check for seat number  
 ![Booking](assets/booking.png)  
+=======
+>>>>>>> eb081dba8cd5c697dc966dceef1c7df768821835
