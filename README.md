@@ -23,4 +23,11 @@ Once booked, an Order ID will be generated.
 Use the Order ID to check seat details via the chatbot.
 
 ## 📸 Screenshots
+# Home page
+![Home page](Result/home.png)
+# Book tickets
+![Book tickets](Result/Tixie_convo.png)
+# Check seat
+![Check seats](Result/check_seat.png)
+
 
