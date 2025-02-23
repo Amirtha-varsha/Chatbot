@@ -134,7 +134,10 @@ env/
 venv/
 ENV/
 env.bak/
+myproenv/
 venv.bak/
+ngrok.exe
+
 
 # Spyder project settings
 .spyderproject

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moonlight Movies</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+        
+        body {
+            font-family: 'Orbitron', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #0ff;
+            text-align: center;
+        }
+        .marquee {
+            font-size: 20px;
+            font-weight: bold;
+            color: #ff0;
+            white-space: nowrap;
+            overflow: hidden;
+            display: block;
+            width: 100%;
+            padding: 10px 0;
+            background: #111;
+            box-shadow: 0 0 10px #ff0;
+            animation: marquee 10s linear infinite;
+        }
+        @keyframes marquee {
+            from { transform: translateX(100%); }
+            to { transform: translateX(-100%); }
+        }
+        .movies-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .movie-card {
+            background: rgba(0, 255, 255, 0.2);
+            margin: 15px;
+            padding: 15px;
+            border-radius: 10px;
+            width: 250px;
+            text-align: center;
+            box-shadow: 0 0 15px #0ff;
+        }
+        .movie-title {
+            font-size: 18px;
+            color: #fff;
+        }
+        .movie-price {
+            font-size: 16px;
+            color: #ff0;
+        }
+        .trending {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ff00ff;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="marquee">Book your show via Tixie...</div>
+    <h1>Moonlight Movies</h1>
+    <h2>Now Showing</h2>
+    <div class="movies-container">
+        <div class="movie-card"><div class="movie-title">OK Kanmani</div><div class="movie-price">₹150</div></div>
+        <div class="movie-card"><div class="movie-title">Dear Comrade</div><div class="movie-price">₹180</div></div>
+        <div class="movie-card"><div class="movie-title">Raaghanaa</div><div class="movie-price">₹160</div></div>
+        <div class="movie-card"><div class="movie-title">Loveyatri</div><div class="movie-price">₹140</div></div>
+        <div class="movie-card"><div class="movie-title">Oru Kal Oru Kannadi</div><div class="movie-price">₹120</div></div>
+        <div class="movie-card"><div class="movie-title">Siva Manasula Sakthi</div><div class="movie-price">₹130</div></div>
+        <div class="movie-card"><div class="movie-title">Varuthapadatha Valibar Sangam</div><div class="movie-price">₹140</div></div>
+        <div class="movie-card"><div class="movie-title">Boss Engira Bhaskaran</div><div class="movie-price">₹160</div></div>
+        <div class="movie-card"><div class="movie-title">Vampire Diaries</div><div class="movie-price">₹200</div></div>
+        <div class="movie-card"><div class="movie-title">The Originals</div><div class="movie-price">₹220</div></div>
+        <div class="movie-card"><div class="movie-title">The Legacy</div><div class="movie-price">₹190</div></div>
+    </div>
+    <h2 class="trending">Trending Movies</h2>
+    <div class="movies-container">
+        <div class="movie-card"><div class="movie-title">The Originals</div><div class="movie-price">₹220</div></div>
+        <div class="movie-card"><div class="movie-title">Vampire Diaries</div><div class="movie-price">₹200</div></div>
+        <div class="movie-card"><div class="movie-title">Dear Comrade</div><div class="movie-price">₹180</div></div>
+    </div>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+    intent="WELCOME"
+    chat-title="Tixie"
+    agent-id="98bbf3f3-b069-432d-a9e8-35de0fcd57f0"
+    language-code="en"></df-messenger>
+</body>
+</html>
