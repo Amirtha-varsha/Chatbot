@@ -23,4 +23,4 @@ Once booked, an Order ID will be generated.
 Use the Order ID to check seat details via the chatbot.
 
 ## 📸 Screenshots
-[(check seat number)](https://github.com/Amirtha-varsha/Chatbot/blob/9901667d32c0f4daf9ba647750adfe4b47b9b9eb/Screenshot%202025-02-23%20165730.png)
+
